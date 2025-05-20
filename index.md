@@ -3,7 +3,7 @@ layout: default
 title: "Arijit Dey | Graduate Student at Duke"
 ---
 
-<img src="/assets/profile.jpg" alt="Arijit Dey" style="width: 180px; border-radius: 50%; margin-bottom: 20px;">
+<img src="/assets/profile.pic.jpg" alt="Arijit Dey" style="width: 180px; border-radius: 50%; margin-bottom: 20px;">
 
 # Arijit Dey
 

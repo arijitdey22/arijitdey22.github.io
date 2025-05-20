@@ -8,7 +8,9 @@ title: "Research"
 ---
 
 - **🌧 Semiparametric GE Regression for Rainfall Trends**
+  *Joint work with Dr. Arnab Hazra (IIT Kapur)* 
   Conducted a comprehensive statistical analysis of precipitation data across the Western Ghats (1901–2022). Designed a semiparametric regression framework based on the Generalized Exponential (GE) distribution and developed a novel penalized complexity prior for its shape parameter to model long-term rainfall trends.
+
   Dey, A. and Hazra, A. (2023+). A semiparametric generalized exponential regression model with a principled distance-based prior for analyzing trends in rainfall. Under review in Journal of Applied Statistics (JAS). Link- https://arxiv.org/abs/2309.03165
 
 ---

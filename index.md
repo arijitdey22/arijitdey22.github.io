@@ -11,15 +11,14 @@ title: "Arijit Dey | Graduate Student at Duke"
 
   <div style="flex: 1; min-width: 250px;">
 
-  ### Arijit Dey
+    <h2>Arijit Dey</h2>
 
-  Welcome! I am a second-year Ph.D. student in the Department of Statistical Science at Duke University, with a strong research interest in Bayesian statistics, causal inference, and clinical trial design.
+    <p>Welcome! I am a second-year Ph.D. student in the Department of Statistical Science at Duke University, with a strong research interest in Bayesian statistics, causal inference, and clinical trial design.</p>
 
-  Prior to joining Duke, I earned my M.Sc. in Statistics from the Indian Institute of Technology Kanpur (IITK) and my B.Sc. from Ramakrishna Mission Residential College, Narendrapur. Over the years, I have worked on a range of methodological and applied projects, spanning semiparametric modeling, power and precision-based sample size calculation, and efficient MCMC diagnostics.
+    <p>Prior to joining Duke, I earned my M.Sc. in Statistics from the Indian Institute of Technology Kanpur (IITK) and my B.Sc. from Ramakrishna Mission Residential College, Narendrapur. Over the years, I have worked on a range of methodological and applied projects, spanning semiparametric modeling, power and precision-based sample size calculation, and efficient MCMC diagnostics.</p>
 
-  Currently, I am working on extending statistical methods for analyzing skewed outcomes in Sequential Multiple Assignment Randomized Trials (SMART), and exploring computationally scalable techniques in high-dimensional Bayesian inference.
+    <p>Currently, I am working on extending statistical methods for analyzing skewed outcomes in Sequential Multiple Assignment Randomized Trials (SMART), and exploring computationally scalable techniques in high-dimensional Bayesian inference.</p>
 
   </div>
 
 </div>
-

@@ -3,6 +3,8 @@ layout: default
 title: "Arijit Dey | Graduate Student at Duke"
 ---
 
+<img src="/assets/profile.jpg" alt="Arijit Dey" style="width: 180px; border-radius: 50%; margin-bottom: 20px;">
+
 # Arijit Dey
 
 Welcome! I am a second-year Ph.D. student in the Department of Statistical Science at Duke University, with a strong research interest in Bayesian statistics, causal inference, and clinical trial design.

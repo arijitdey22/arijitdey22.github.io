@@ -6,7 +6,7 @@ title: "Arijit Dey | Graduate Student at Duke"
 <div style="display: flex; align-items: flex-start; gap: 30px; flex-wrap: wrap;">
 
   <div style="flex: 0 0 180px;">
-    <img src="/assets/profile.jpg" alt="Arijit Dey" style="width: 180px; border-radius: 50%;">
+    <img src="/assets/profile.pic.jpg" alt="Arijit Dey" style="width: 180px; border-radius: 50%;">
   </div>
 
   <div style="flex: 1; min-width: 250px;">

@@ -1,11 +1,19 @@
 ---
 layout: default
-title: "Contact"
+title: "Arijit Dey | Graduate Student at Duke"
 ---
 
-# Contact
+# Arijit Dey
 
-- 📧 arijit.dey@duke.edu  
-- 🏫 Department of Statistical Science, Duke University  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/arijit-dey-556a1922a)  
-- 🧑‍💻 [GitHub](https://github.com/arijitdey22)
+Welcome! I am a second-year Ph.D. student in the Department of Statistical Science at Duke University, with a strong research interest in Bayesian statistics, causal inference, and clinical trial design.
+
+Prior to joining Duke, I earned my M.Sc. in Statistics from the Indian Institute of Technology Kanpur (IITK) and my B.Sc. from Ramakrishna Mission Residential College, Narendrapur. Over the years, I have worked on a range of methodological and applied projects, spanning semiparametric modeling, power and precision-based sample size calculation, and efficient MCMC diagnostics.
+
+Feel free to explore my website to learn more about my research projects, academic background, and ways to get in touch.
+
+---
+
+- 📄 [Download CV](assets/CV_Arijit_Dey.pdf)
+- 📬 [arijit.dey@duke.edu](mailto:arijit.dey@duke.edu)
+- 💼 [LinkedIn](https://www.linkedin.com/in/arijit-dey-556a1922a/)
+- 💻 [GitHub](https://github.com/arijitdey22)

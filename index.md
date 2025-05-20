@@ -3,14 +3,22 @@ layout: default
 title: "Arijit Dey | Graduate Student at Duke"
 ---
 
-<img src="/assets/profile.jpg" alt="Arijit Dey" style="width: 180px; border-radius: 50%; margin-bottom: 20px;">
+<div style="display: flex; align-items: flex-start; gap: 30px; flex-wrap: wrap;">
 
-# Arijit Dey
+  <div style="flex: 0 0 180px;">
+    <img src="/assets/profile.pic.jpg" alt="Arijit Dey" style="width: 180px; border-radius: 50%;">
+  </div>
 
-Welcome! I am a second-year Ph.D. student in the Department of Statistical Science at Duke University, with a strong research interest in Bayesian statistics, causal inference, and clinical trial design.
+  <div style="flex: 1; min-width: 250px;">
 
-Prior to joining Duke, I earned my M.Sc. in Statistics from the Indian Institute of Technology Kanpur (IITK) and my B.Sc. from Ramakrishna Mission Residential College, Narendrapur. Over the years, I have worked on a range of methodological and applied projects, spanning semiparametric modeling, power and precision-based sample size calculation, and efficient MCMC diagnostics.
+    <h2>Arijit Dey</h2>
 
-Currently, I am working on extending statistical methods for analyzing skewed outcomes in Sequential Multiple Assignment Randomized Trials (SMART), and exploring computationally scalable techniques in high-dimensional Bayesian inference.
+    <p>Welcome! I am a second-year Ph.D. student in the Department of Statistical Science at Duke University, with a strong research interest in Bayesian statistics, causal inference, and clinical trial design.</p>
 
-Feel free to explore my website to learn more about my research projects, academic background, and ways to get in touch.
+    <p>Prior to joining Duke, I earned my M.Sc. in Statistics from the Indian Institute of Technology Kanpur (IITK) and my B.Sc. from Ramakrishna Mission Residential College, Narendrapur. Over the years, I have worked on a range of methodological and applied projects, spanning semiparametric modeling, power and precision-based sample size calculation, and efficient MCMC diagnostics.</p>
+
+    <p>Currently, I am working on extending statistical methods for analyzing skewed outcomes in Sequential Multiple Assignment Randomized Trials (SMART), and exploring computationally scalable techniques in high-dimensional Bayesian inference.</p>
+
+  </div>
+
+</div>

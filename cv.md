@@ -7,4 +7,4 @@ title: "Curriculum Vitae"
 
 You can view or download my CV here:
 
-📄 [Download PDF](assets/CV_Arijit_Dey.pdf)
+📄 [CV_Arijit_Dey](assets/CV_Arijit_Dey.pdf)

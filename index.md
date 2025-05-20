@@ -12,5 +12,3 @@ Prior to joining Duke, I earned my M.Sc. in Statistics from the Indian Institute
 Currently, I am working on extending statistical methods for analyzing skewed outcomes in Sequential Multiple Assignment Randomized Trials (SMART), and exploring computationally scalable techniques in high-dimensional Bayesian inference.
 
 Feel free to explore my website to learn more about my research projects, academic background, and ways to get in touch.
-
-My most updated CV can be found [here].(assets/CV_Arijit_Dey.pdf)

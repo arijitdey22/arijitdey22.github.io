@@ -1,10 +1,10 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Arijit Dey",
+    "email": "arijit.dey@duke.edu",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://arijitdey22.github.io",
+    "summary": "Graduate Student, Duke University",
     "location": {
       "address": "",
       "postalCode": "",
@@ -16,17 +16,17 @@
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/citations?hl=en&user=PB2FQaAAAAAJ"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/my-orcid?orcid=0009-0006-6535-9622"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "arijitdey22",
+        "url": "https://github.com/arijitdey22"
       }
     ]
   },

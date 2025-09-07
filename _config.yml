@@ -24,22 +24,22 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Arijit Dey"
-  pronouns         : he/him # example: "she/her"  
-  bio              : "Graduate Student, Duke University"
+  pronouns         : he/him 
+  bio              : "Graduate Student"
   location         : "Durham, NC"
-  employer         : "Red Brick University"
+  employer         : "Duke University"
   uri              : # URL
   email            : "arijit.dey@duke.edu" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=PB2FQaAAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/my-orcid?orcid=0009-0006-6535-9622"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 

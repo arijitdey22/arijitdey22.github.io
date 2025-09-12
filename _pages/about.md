@@ -10,7 +10,7 @@ redirect_from:
 <p>
   I am a second-year Ph.D. student in the
   <a href="https://stat.duke.edu" target="_blank">Department of Statistical Science</a> at Duke University, with a strong research focus on 
-  <strong>Bayesian statistics</strong>. Currently I am exploring topics on Bayesian Optimization with <a href = "https://sites.google.com/view/simonmak/home">Simon Mak</a> and Bayesian Clustering with <a href="https://scholars.duke.edu/person/Amy.Herring">Amy Herring</a>. 
+  <strong>Bayesian statistics</strong>. Currently I am exploring topics on Bayesian Optimization with <a href = "https://sites.google.com/view/simonmak/home">Prof. Simon Mak</a> and Bayesian Clustering with <a href="https://scholars.duke.edu/person/Amy.Herring">Prof. Amy Herring</a>. 
 </p>
 
 <p>

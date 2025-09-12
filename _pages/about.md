@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 <p>
-  I am a second-year Ph.D. student in the Department of Statistical Science at 
-  <a href="https://stat.duke.edu" target="_blank">Duke University</a>, with a strong research focus on 
+  I am a second-year Ph.D. student in the
+  <a href="https://stat.duke.edu" target="_blank">Department of Statistical Science</a> at Duke University, with a strong research focus on 
   <strong>Bayesian statistics</strong>. Currently I am exploring topics on Bayesian Optimization with <a href = "https://sites.google.com/view/simonmak/home">Simon Mak</a> and Bayesian Clustering with <a href="https://scholars.duke.edu/person/Amy.Herring">Amy Herring</a>. 
 </p>
 

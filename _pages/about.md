@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+# About Me
+
 <p>
   I am a second-year Ph.D. student in the
   <a href="https://stat.duke.edu" target="_blank">Department of Statistical Science</a> at Duke University, with a strong research focus on 

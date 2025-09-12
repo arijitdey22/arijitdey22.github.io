@@ -2,7 +2,7 @@
 title: "A Semiparametric Generalized Exponential Regression Model with a Principled Distance-based Prior for Analyzing Trends in Rainfall"
 collection: publications
 category: submitted
-permalink: /publication/Semiparametric_GE_PC_Prior
+permalink: /publications/Semiparametric_GE_PC_Prior
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2023-09-01
 venue: 'Under Revision to Statistics Papers'

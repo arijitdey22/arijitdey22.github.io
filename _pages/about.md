@@ -1,11 +1,13 @@
 ---
 permalink: /
-title: "About Me"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+# About Me
 
 <p>
   I am a second-year Ph.D. student in the

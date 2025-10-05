@@ -23,7 +23,7 @@ author_profile: true
       <ul class="pub-list">
         {% for post in subset %}
           <li>
-            <a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a><br/>
+            <strong>{{ post.title }}</strong><br/>
             {% if post.paperurl %}<a href="{{ post.paperurl }}">Manuscript</a>{% endif %}
             {% if post.paperurl and post.codeurl %} · {% endif %}
             {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
@@ -39,7 +39,7 @@ author_profile: true
     {% assign pubs = site.publications | sort: "date" | reverse %}
     {% for post in pubs %}
       <li>
-        <a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a><br/>
+        <strong>{{ post.title }}</strong><br/>
         {% if post.paperurl %}<a href="{{ post.paperurl }}">Manuscript</a>{% endif %}
         {% if post.paperurl and post.codeurl %} · {% endif %}
         {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}

@@ -11,25 +11,43 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.categories[0] != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+{% comment %} Sectioned minimal list: Title + Manuscript/Code/Details {% endcomment %}
+{% assign sections = site.publication_category %}
+{% if sections %}
+  {% for category in sections %}
+    {% assign cat_key = category[0] %}
+    {% assign cat_label = category[1] %}
+    {% assign subset = site.publications | where_exp: "p", "p.categories contains cat_key" | sort: "date" | reverse %}
+    {% if subset.size > 0 %}
+      <h2>{{ cat_label }}</h2>
+      <ul class="pub-list">
+        {% for post in subset %}
+          <li>
+            <a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a><br/>
+            {% if post.paperurl %}<a href="{{ post.paperurl }}">Manuscript</a>{% endif %}
+            {% if post.paperurl and post.codeurl %} · {% endif %}
+            {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+            {% if post.paperurl or post.codeurl %} · {% endif %}
+            <a href="{{ post.url | relative_url }}">Details</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   {% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+  <ul class="pub-list">
+    {% assign pubs = site.publications | sort: "date" | reverse %}
+    {% for post in pubs %}
+      <li>
+        <a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a><br/>
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">Manuscript</a>{% endif %}
+        {% if post.paperurl and post.codeurl %} · {% endif %}
+        {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+        {% if post.paperurl or post.codeurl %} · {% endif %}
+        <a href="{{ post.url | relative_url }}">Details</a>
+      </li>
+    {% endfor %}
+  </ul>
 {% endif %}
 
 

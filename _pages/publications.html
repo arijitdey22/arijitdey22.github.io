@@ -24,12 +24,15 @@ author_profile: true
         {% for post in subset %}
           <li>
             <strong>{{ post.title }}</strong><br/>
-            {% if post.paperurl %}<a href="{{ post.paperurl }}">Manuscript</a>{% endif %}
-            {% if post.paperurl and post.codeurl %} · {% endif %}
-            {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
-            {% if post.paperurl or post.codeurl %} · {% endif %}
+            {% unless cat_key == "in-prep" %}
+              {% if post.paperurl %}<a href="{{ post.paperurl }}">Manuscript</a>{% endif %}
+              {% if post.paperurl and post.codeurl %} · {% endif %}
+              {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+              {% if post.paperurl or post.codeurl %} · {% endif %}
+            {% endunless %}
             <a href="{{ post.url | relative_url }}">Details</a>
           </li>
+
         {% endfor %}
       </ul>
     {% endif %}
@@ -38,14 +41,16 @@ author_profile: true
   <ul class="pub-list">
     {% assign pubs = site.publications | sort: "date" | reverse %}
     {% for post in pubs %}
-      <li>
-        <strong>{{ post.title }}</strong><br/>
-        {% if post.paperurl %}<a href="{{ post.paperurl }}">Manuscript</a>{% endif %}
-        {% if post.paperurl and post.codeurl %} · {% endif %}
-        {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
-        {% if post.paperurl or post.codeurl %} · {% endif %}
-        <a href="{{ post.url | relative_url }}">Details</a>
-      </li>
+          <li>
+            <strong>{{ post.title }}</strong><br/>
+            {% unless cat_key == "in-prep" %}
+              {% if post.paperurl %}<a href="{{ post.paperurl }}">Manuscript</a>{% endif %}
+              {% if post.paperurl and post.codeurl %} · {% endif %}
+              {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+              {% if post.paperurl or post.codeurl %} · {% endif %}
+            {% endunless %}
+            <a href="{{ post.url | relative_url }}">Details</a>
+          </li>
     {% endfor %}
   </ul>
 {% endif %}

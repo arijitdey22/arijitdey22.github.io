@@ -357,7 +357,9 @@ compress_html:
     envs: development
 
 
+# Which publication categories to show, and the headings to use
 publication_category:
+  - [peer-reviewed, "Peer-reviewed papers."]
   - [submitted, "Submitted"]
-  - [under-review, "Under Review"]
-  - [journal-article, "Journal Articles"]
+  - [in-prep, "Papers in preparation"]
+

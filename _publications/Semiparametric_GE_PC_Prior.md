@@ -3,7 +3,8 @@ title: "A Semiparametric Generalized Exponential Regression Model with a Princip
 collection: publications
 categories: [under-review]
 permalink: /publications/Semiparametric_GE_PC_Prior
-excerpt: "This paper is about the number 1. The number 2 is left for future work."
+excerpt: "In this paper, We onducted a comprehensive analysis of precipitation data in the Western Ghats region from 1901 to 2022, by developing a semiparametric GE regression model that extends the GE distribution to a regression setting.
+We also constructed a novel class of penalized complexity prior for the shape parameter of the GE distribution."
 date: 2023-09-01
 venue: "Under Revision to Statistics Papers"
 paperurl: "https://arxiv.org/abs/2309.03165"

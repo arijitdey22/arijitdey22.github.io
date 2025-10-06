@@ -4,8 +4,7 @@ collection: publications
 categories: [submitted]
 permalink: /publications/Semiparametric_GE_PC_Prior
 header_line: "Under Revision to Statistics Papers, 2023"  # you control this line fully
-excerpt: "In this paper, we analyzed of precipitation data in the Western Ghats region from 1901 to 2022 by developing a semiparametric GE regression model that extends the GE distribution to a regression setting.
-We also constructed a novel class of penalized complexity prior for the shape parameter of the GE distribution."
+excerpt: "In this paper, we analyzed of precipitation data in the Western Ghats region from 1901 to 2022 by developing a semiparametric GE regression model that extends the GE distribution to a regression setting. We also constructed a novel class of penalized complexity prior for the shape parameter of the GE distribution."
 date: 2023-09-01
 venue: "Under Revision to Statistics Papers"
 paperurl: "https://arxiv.org/abs/2309.03165"

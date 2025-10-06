@@ -24,18 +24,28 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
-      {% if author.employer %}
-        <li class="author__desktop">
-        <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>
-        <a href="https://duke.edu" target="_blank" rel="noopener">{{ author.employer }}</a>
-      </li>
+    {% if author.employer %}
+      <li class="author__desktop">
+      <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>
+        {% if author.employer_url %}
+          <a href="{{ author.employer_url }}" target="_blank">{{ author.employer }}</a>
+        {% else %}
+          {{ author.employer }}
+        {% endif %}
+        </li>
+    {% endif %}
+
+    {% if author.location %}
+      <li class="author__desktop">
+      <i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>
+      {% if author.location_url %}
+        <a href="{{ author.location_url }}" target="_blank">{{ author.location }}</a>
+      {% else %}
+        {{ author.location }}
       {% endif %}
-      {% if author.location %}
-        <li class="author__desktop">
-        <i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>
-        <a href="https://www.google.com/maps/place/Durham,+NC/@36.0017056,-78.883559,11z/data=!3m1!4b1!4m6!3m5!1s0x89ace471120f66f1:0xe17ada898a46f27e!8m2!3d35.9955684!4d-78.9002077!16zL20vMDEzaHh2?entry=ttu&g_ep=EgoyMDI1MTAwMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">{{ author.location }}</a>
-      </li>
-      {% endif %}
+    </li>
+    {% endif %}
+
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}

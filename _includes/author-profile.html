@@ -25,7 +25,10 @@
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+        <li class="author__desktop">
+        <i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>
+        <a href="https://duke.edu" target="_blank" rel="noopener">{{ author.employer }}</a>
+      </li>
       {% endif %}
       {% if author.location %}
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>

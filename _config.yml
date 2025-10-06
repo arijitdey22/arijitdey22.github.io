@@ -359,7 +359,7 @@ compress_html:
 
 # Which publication categories to show, and the headings to use
 publication_category:
-  - [peer-reviewed, "Peer-reviewed papers."]
+  - [peer-reviewed, "Peer-reviewed"]
   - [submitted, "Submitted"]
-  - [in-prep, "Papers in preparation"]
+  - [in-prep, "In preparation"]
 

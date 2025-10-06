@@ -55,12 +55,10 @@ layout: default
         {{ content }}
 
         {% if page.collection == "publications" and page.categories contains "in-prep" %}
-          {# In preparation → show citation only, no Download Paper #}
         {% if page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
         {% endif %}
         {% else %}
-        {# All other cases → keep the full logic with Download Paper / Slides / Bibtex #}
           {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
             <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
           {% elsif page.citation and page.paperurl and page.slidesurl %}

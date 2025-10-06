@@ -86,6 +86,15 @@ layout: default
           {% endif %}
         {% endif %}
 
+        {%- if page.excerpt -%}
+          <div class="pub-excerpt">{{ page.excerpt }}</div>
+        {%- endif -%}
+        {% if page.citation %}
+          <p class="pub-citation">Recommended citation: {{ page.citation }}</p>
+        {% endif %}
+        {% if page.paperurl and not (page.categories contains "in-prep") %}
+          <div class="pub-links"><a href="{{ page.paperurl }}">Download Paper</a></div>
+        {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

@@ -41,3 +41,40 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* --- Custom overrides for publication detail pages --- */
+
+/* Make publication title smaller */
+.page__title {
+  font-size: 1.6rem;   /* smaller than default */
+  line-height: 1.3;
+  margin-bottom: 0.4rem;
+}
+
+/* Venue / status line under title */
+.page header p em {
+  font-size: 1rem;
+  color: #555; /* slightly muted */
+}
+
+/* Excerpt and citation same style */
+.pub-excerpt,
+.pub-citation {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #333;
+}
+
+/* Add spacing */
+.pub-excerpt {
+  margin-bottom: 1rem;
+}
+
+.pub-citation {
+  margin-bottom: 1rem;
+}
+
+.pub-links {
+  margin-bottom: 1rem;
+  display: block;
+}

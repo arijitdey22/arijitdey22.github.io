@@ -106,11 +106,16 @@
 }
 
 .edu-list li { 
-  margin: 0 0 .9rem 0; 
+  margin: 0 0 1rem 0; 
+  position: relative;
+  padding-left: 1.75rem; /* aligns icon with text */
+}
+
+.fa-li i {
+  font-size: 1rem;
+  color: #444; /* same tone as Interests icons */
 }
 
 .edu-inst { 
-  color: #6b7280; 
-} /* subtle second line */
-
-
+  color: #6b7280; /* subtle second line */
+}

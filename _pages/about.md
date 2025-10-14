@@ -29,7 +29,35 @@ Under the guidance of <a href="https://dvats.github.io/">Prof. Dootika Vats</a>,
   I also collaborate with the <a href="https://www.duke-nus.edu.sg/cqm" target="_blank">Centre for Quantitative Medicine</a> under the supervision of <a href="https://blog.nus.edu.sg/bibhas/">Prof. Bibhas Chakraborty</a>. I worked on a project to derive sample size formulas for Sequential Multiple Assignment Randomized Trials (SMART) in the presence of skewed outcomes, incorporating both power- and precision-based criteria for full-scale and pilot study designs. Currently I am working on Q-learning for estimating dynamic treatment regimes from survival data.
 </p>
 
+<div class="intro-columns">
+  <div>
+    <h2>Interests</h2>
+    <ul class="fa-ul">
+      <li><span class="fa-li"><i class="fas fa-book"></i></span>Bayesian Optimization</li>
+      <li><span class="fa-li"><i class="fas fa-book"></i></span>Gaussian Processes</li>
+      <li><span class="fa-li"><i class="fas fa-book"></i></span>Reinforcement Learning</li>
+      <li><span class="fa-li"><i class="fas fa-book"></i></span>Experimental Design</li>
+    </ul>
+  </div>
 
+  <div>
+    <h2>Education</h2>
+    <ul class="edu-list">
+      <li>
+        <strong>Ph.D. in Statistics, 2024 – Present</strong><br>
+        <span class="edu-inst"><a href="https://stat.duke.edu" target="_blank" rel="noopener">Duke University</a>, United States</span>
+      </li>
+      <li>
+        <strong>M.Sc. in Statistics, 2024</strong><br>
+        <span class="edu-inst"><a href="https://iitk.ac.in" target="_blank">Indian Institute of Technology Kanpur (IITK)</a>, India</span>
+      </li>
+      <li>
+        <strong>B.Sc. in Statistics, 2022</strong><br>
+        <span class="edu-inst"><a href="https://rkmrc.in" target="_blank">Ramakrishna Mission Residential College, Narendrapur</a>, India</span>
+      </li>
+    </ul>
+  </div>
+</div>
 
 
 

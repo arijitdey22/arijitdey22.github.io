@@ -87,7 +87,7 @@
   align-items: start;
 }
 @media (min-width: 900px) {
-  .intro-columns { grid-template-columns: 1fr 1fr; }
+  .intro-columns { grid-template-columns: 0.8fr 1.2fr; }
 }
 
 /* Icon bullet list */

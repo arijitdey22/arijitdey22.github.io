@@ -29,9 +29,9 @@ Under the guidance of <a href="https://dvats.github.io/">Prof. Dootika Vats</a>,
     <h2>Interests</h2>
     <ul class="fa-ul">
       <li><span class="fa-li"><i class="fas fa-book"></i></span>Bayesian Optimization</li>
-      <li><span class="fa-li"><i class="fas fa-book"></i></span>Gaussian Processes</li>
+      <li><span class="fa-li"><i class="fas fa-book"></i></span>Spatial Statistics</li>
+      <li><span class="fa-li"><i class="fas fa-book"></i></span>Bayesian Clustering</li>
       <li><span class="fa-li"><i class="fas fa-book"></i></span>Reinforcement Learning</li>
-      <li><span class="fa-li"><i class="fas fa-book"></i></span>Experimental Design</li>
     </ul>
   </div>
 

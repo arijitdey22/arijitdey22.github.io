@@ -44,7 +44,7 @@ With <a href="https://dvats.github.io/">Prof. Dootika Vats</a>, I explored the u
       </li>
       <li>
         <strong>M.Sc. in Statistics, 2024</strong><br>
-        <span class="edu-inst"><a href="https://iitk.ac.in" target="_blank">Indian Institute of Technology Kanpur (IITK)</a>, India</span>
+        <span class="edu-inst"><a href="https://iitk.ac.in" target="_blank">Indian Institute of Technology Kanpur</a>, India</span>
       </li>
       <li>
         <strong>B.Sc. in Statistics, 2022</strong><br>

@@ -120,3 +120,7 @@
   color: #444;
 }
 
+.edu-list li .edu-inst {
+  display: inline-block;
+  padding-left: 0.4em;   /* tweak this number as needed (0.3–0.6em works well) */
+}

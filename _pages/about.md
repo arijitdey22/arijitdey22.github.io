@@ -16,10 +16,6 @@ redirect_from:
 </p>
 
 <p>
-  Prior to joining Duke, I earned my M.Sc. in Statistics from the 
-  <a href="https://iitk.ac.in" target="_blank">Indian Institute of Technology Kanpur (IITK)</a> 
-  and my B.Sc. from 
-  <a href="https://rkmrc.in" target="_blank">Ramakrishna Mission Residential College, Narendrapur</a>. 
   Over the years, I have worked on a range of methodological and applied projects, spanning 
   semiparametric modeling, power and precision-based sample size calculation, and efficient MCMC diagnostics.
 </p>
@@ -30,7 +26,7 @@ Under the guidance of <a href="https://dvats.github.io/">Prof. Dootika Vats</a>,
 </p>
 
 <p>
-  In a collaborative project with <a href="https://blog.nus.edu.sg/bibhas/">Prof. Bibhas Chakraborty</a>, I derived sample size formulas for Sequential Multiple Assignment Randomized Trials (SMART) in the presence of skewed outcomes, incorporating both power- and precision-based criteria for full-scale and pilot study designs.
+  I also collaborate with the <a href="https://www.duke-nus.edu.sg/cqm" target="_blank">Centre for Quantitative Medicine</a> under the supervision of <a href="https://blog.nus.edu.sg/bibhas/">Prof. Bibhas Chakraborty</a>. I worked on a project to derive sample size formulas for Sequential Multiple Assignment Randomized Trials (SMART) in the presence of skewed outcomes, incorporating both power- and precision-based criteria for full-scale and pilot study designs. Currently I am working on Q-learning for estimating dynamic treatment regimes from survival data.
 </p>
 
 

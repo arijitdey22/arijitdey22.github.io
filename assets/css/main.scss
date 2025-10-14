@@ -98,24 +98,25 @@
   margin-left: 1.5rem; 
 }
 
-/* Education list styling */
-.edu-list { 
-  list-style: none; 
-  padding: 0; 
-  margin: 0; 
+/* --- Education list: tighten FA icon alignment --- */
+.edu-list.fa-ul {
+  margin-left: 0;                 /* no extra indent on the whole list */
 }
 
-.edu-list li { 
-  margin: 0 0 1rem 0; 
+.edu-list.fa-ul li {
   position: relative;
-  padding-left: 1.75rem; /* aligns icon with text */
+  padding-left: 1.4em;            /* reserve space for the icon INSIDE the li */
+  margin: 0 0 1rem 0;
+}
+
+.edu-list.fa-ul .fa-li {
+  left: 0;                        /* move icon inside the li (not -2em outside) */
+  width: 1.2em;                   /* narrower icon block = closer to text */
+  top: .15em;                     /* slight vertical nudge for better alignment */
 }
 
 .fa-li i {
   font-size: 1rem;
-  color: #444; /* same tone as Interests icons */
+  color: #444;
 }
 
-.edu-inst { 
-  color: #6b7280; /* subtle second line */
-}

@@ -42,21 +42,21 @@ With <a href="https://dvats.github.io/">Prof. Dootika Vats</a>, I explored the u
     <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
     <strong>Ph.D. in Statistics, 2024 – Present</strong><br>
     <span class="edu-inst">
-      <a href="https://stat.duke.edu" target="_blank" rel="noopener">Duke University</a>, United States
+      Duke University, United States
     </span>
   </li>
   <li>
     <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
     <strong>M.Sc. in Statistics, 2024</strong><br>
     <span class="edu-inst">
-      <a href="https://iitk.ac.in" target="_blank">Indian Institute of Technology Kanpur</a>, India
+      Indian Institute of Technology Kanpur, India
     </span>
   </li>
   <li>
     <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
     <strong>B.Sc. in Statistics, 2022</strong><br>
     <span class="edu-inst">
-      <a href="https://rkmrc.in" target="_blank">Ramakrishna Mission Residential College</a>, India
+      Ramakrishna Mission Residential College, Narendrapur, India
     </span>
   </li>
 </ul>

@@ -16,7 +16,7 @@ redirect_from:
 </p>
 
 <p>
-  During my time at IIT Kanpur, I worked with <a href="https://sites.google.com/view/arnabhazra09/">Prof. Arnab Hazra</a> to develope a semiparametric generalized exponential (GE) regression model with penalized complexity priors for capturing long-term precipitation trends in the Western Ghats.
+  During my time at <a href = "https://www.iitk.ac.in/math/">IIT Kanpur</a>, I worked with <a href="https://sites.google.com/view/arnabhazra09/">Prof. Arnab Hazra</a> to develope a semiparametric generalized exponential (GE) regression model with penalized complexity priors for capturing long-term precipitation trends in the Western Ghats.
 With <a href="https://dvats.github.io/">Prof. Dootika Vats</a>, I explored the use of Kernel Stein Discrepancy (KSD) for diagnosing convergence in MCMC algorithms, playing with a Stein-thinning approach to reduce computational burden and adapting it for biased samplers.
 </p>
 

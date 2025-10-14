@@ -48,7 +48,7 @@ With <a href="https://dvats.github.io/">Prof. Dootika Vats</a>, I explored the u
       </li>
       <li>
         <strong>B.Sc. in Statistics, 2022</strong><br>
-        <span class="edu-inst"><a href="https://rkmrc.in" target="_blank">Ramakrishna Mission Residential College, Narendrapur</a>, India</span>
+        <span class="edu-inst"><a href="https://rkmrc.in" target="_blank">Ramakrishna Mission Residential College</a>, India</span>
       </li>
     </ul>
   </div>

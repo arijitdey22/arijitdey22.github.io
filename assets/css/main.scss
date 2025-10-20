@@ -78,3 +78,49 @@
   margin-bottom: 1rem;
   display: block;
 }
+
+/* --- Intro columns (Interests + Education) --- */
+.intro-columns {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem 2rem;
+  align-items: start;
+}
+
+@media (min-width: 900px) {
+  .intro-columns { 
+    grid-template-columns: 0.8fr 1.2fr; 
+  }
+}
+
+/* Icon bullet list */
+.fa-ul { 
+  margin-left: 1.5rem; 
+}
+
+/* --- Education list: tighten FA icon alignment --- */
+.edu-list.fa-ul {
+  margin-left: 0;                 /* no extra indent on the whole list */
+}
+
+.edu-list.fa-ul li {
+  position: relative;
+  padding-left: 1.8em;            /* reserve space for the icon INSIDE the li */
+  margin: 0 0 1rem 0;
+}
+
+.edu-list.fa-ul .fa-li {
+  left: 0;                        /* move icon inside the li (not -2em outside) */
+  width: 1.2em;                   /* narrower icon block = closer to text */
+  top: .15em;                     /* slight vertical nudge for better alignment */
+}
+
+.fa-li i {
+  font-size: 1rem;
+  color: #444;
+}
+
+.edu-list li .edu-inst {
+  display: inline-block;
+  padding-left: 0.8em;   /* tweak this number as needed (0.3–0.6em works well) */
+}

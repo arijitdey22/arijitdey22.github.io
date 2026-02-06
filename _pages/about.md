@@ -12,7 +12,7 @@ redirect_from:
 <p>
   I am a second-year Ph.D. student in the
   <a href="https://stat.duke.edu" target="_blank">Department of Statistical Science</a> at Duke University, with a strong research focus on 
-  <strong>Bayesian statistics and modeling</strong>. Currently I am exploring topics on Bayesian Optimization with <a href = "https://sites.google.com/view/simonmak/home">Prof. Simon Mak</a> and Bayesian Clustering with <a href="https://scholars.duke.edu/person/Amy.Herring">Prof. Amy Herring</a>. 
+  <strong>Bayesian statistics and modeling</strong>. Currently I am exploring topics on Bayesian Optimization with <a href = "https://sites.google.com/view/simonmak/home">Prof. Simon Mak</a>. 
 </p>
 
 <p>
@@ -29,9 +29,8 @@ With <a href="https://dvats.github.io/">Prof. Dootika Vats</a>, I explored the u
     <h2>Interests</h2>
     <ul class="fa-ul">
       <li><span class="fa-li"><i class="fas fa-book"></i></span>Bayesian Optimization</li>
-      <li><span class="fa-li"><i class="fas fa-book"></i></span>Spatial Statistics</li>
-      <li><span class="fa-li"><i class="fas fa-book"></i></span>Bayesian Clustering</li>
       <li><span class="fa-li"><i class="fas fa-book"></i></span>Reinforcement Learning</li>
+      <li><span class="fa-li"><i class="fas fa-book"></i></span>Spatial Statistics</li>
     </ul>
   </div>
 

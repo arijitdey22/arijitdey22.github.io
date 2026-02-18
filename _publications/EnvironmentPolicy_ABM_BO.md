@@ -1,9 +1,9 @@
 ---
-title: "Sample size calculation of SMART design with skewed outcome: Application to the SMART+ study"
+title: "Environmental policy in the context of complex systems: Statistical sensitivity testing and policy optimization using agent-based models"
 collection: publications
 categories: [submitted]
-permalink: /publications/SMART_Sample_Size
-header_line: "Under Review in Statistical Methods for Medical Research"
-excerpt: "In this paper, we developed sample size calculation formulas based on precision and power for the SMART design with skewed outcomes, suitable for both full-scale SMART and pilot-SMART studies."
-citation: "Dey, A., Yan, X., and Chakraborty, B. (2025+). Sample size calculation of SMART design with skewed outcome: Application to the SMART+ study"
+permalink: /publications/EnvironmentPolicy_ABM_BO
+header_line: "Under Review in Environmental Modelling and Software"
+excerpt: "This paper introduces a machine-learning–assisted framework for optimizing environmental policy in complex agent-based models. By combining statistical sensitivity testing with Bayesian optimization, it enables efficient policy search despite costly simulations. Applied to an extended Sugarscape model with pollution, the approach identifies interpretable policies and reveals key tradeoffs between welfare, inequality, and survival."
+citation: "Munson, D., Dey, A., and Mak, S. (2026+). Environmental policy in the context of complex systems: Statistical sensitivity testing and policy optimization using agent-based models"
 ---

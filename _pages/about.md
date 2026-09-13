@@ -10,7 +10,7 @@ redirect_from:
 # About Me
 
 <p>
-  I am a second-year Ph.D. student in the
+  I am a third-year Ph.D. student in the
   <a href="https://stat.duke.edu" target="_blank">Department of Statistical Science</a> at Duke University, with a strong research focus on 
   <strong>Bayesian statistics and modeling</strong>. Currently I am exploring topics on Bayesian Optimization with <a href = "https://sites.google.com/view/simonmak/home">Prof. Simon Mak</a>. 
 </p>
